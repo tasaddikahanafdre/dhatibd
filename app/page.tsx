@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: 'Dhati | Online Store',
 };
 
+export const dynamic = 'force-dynamic';
 export const revalidate = 0; // Dynamic data for instant admin updates
 
 export default async function HomePage() {

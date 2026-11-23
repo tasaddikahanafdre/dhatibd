@@ -352,13 +352,13 @@ let lastCloudFetchTime = 0;
 
 async function loadDataAsync(): Promise<InitialData> {
   const now = Date.now();
-  if (cachedStoreData && (now - lastCloudFetchTime < 60000)) {
+  if (cachedStoreData && (now - lastCloudFetchTime < 3000)) {
     return cachedStoreData;
   }
 
   const local = loadData();
 
-  // Try fast cloud sync with strict 2.5s timeout so it never hangs or freezes requests
+  // Fast cloud sync with strict 2.5s timeout so it never hangs or freezes requests
   const supabase = getSupabaseAdminClient();
   if (supabase) {
     try {
@@ -378,8 +378,23 @@ async function loadDataAsync(): Promise<InitialData> {
       if (!error && data?.setting_value && typeof data.setting_value === 'object') {
         const cloudData = data.setting_value;
         const cloudProducts = Array.isArray(cloudData.products) ? cloudData.products : [];
-        // Prioritize local products if local has the full 3,998 catalog
-        const productsToUse = local.products.length >= cloudProducts.length ? local.products : cloudProducts;
+
+        // Merge cloud products on top of local catalog
+        let productsToUse = local.products;
+        if (cloudProducts.length > 0) {
+          if (cloudProducts.length >= local.products.length) {
+            productsToUse = cloudProducts;
+          } else {
+            const productMap = new Map<string, Product>();
+            for (const p of local.products) {
+              if (p && p.id) productMap.set(p.id, p);
+            }
+            for (const p of cloudProducts) {
+              if (p && p.id) productMap.set(p.id, p);
+            }
+            productsToUse = Array.from(productMap.values());
+          }
+        }
 
         cachedStoreData = {
           categories: Array.isArray(cloudData.categories) && cloudData.categories.length > 0 ? cloudData.categories : local.categories,
@@ -390,7 +405,7 @@ async function loadDataAsync(): Promise<InitialData> {
           pages: Array.isArray(cloudData.pages) && cloudData.pages.length > 0 ? cloudData.pages : local.pages,
           settings: { ...defaultDataset.settings, ...(local.settings || {}), ...(cloudData.settings || {}) },
           contactMessages: Array.isArray(cloudData.contactMessages) ? cloudData.contactMessages : local.contactMessages,
-          featured_product_ids: Array.isArray(cloudData.featured_product_ids) && cloudData.featured_product_ids.length > 0
+          featured_product_ids: Array.isArray(cloudData.featured_product_ids)
             ? cloudData.featured_product_ids
             : local.featured_product_ids,
           featured_category_ids: Array.isArray(cloudData.featured_category_ids)
@@ -419,20 +434,18 @@ async function saveDataAsync(data: InitialData): Promise<void> {
   lastCloudFetchTime = Date.now();
   saveData(data);
 
-  // Background non-blocking sync to Supabase so write operations respond instantly
+  // Sync to Supabase - awaited so serverless functions do not freeze before upload completes
   const supabase = getSupabaseAdminClient();
   if (supabase) {
-    Promise.resolve(
-      supabase.from('store_settings').upsert({
+    try {
+      await supabase.from('store_settings').upsert({
         setting_key: 'dhati_store_dataset',
         setting_value: data,
         updated_at: new Date().toISOString()
-      }, { onConflict: 'setting_key' })
-    ).then(() => {
-      // Synced in background
-    }).catch(e => {
-      console.warn('Background Supabase sync notice:', e);
-    });
+      }, { onConflict: 'setting_key' });
+    } catch (e) {
+      console.warn('Supabase sync notice:', e);
+    }
   }
 }
 
