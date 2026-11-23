@@ -1,17 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createClient } from '@supabase/supabase-js';
+import { getSupabaseAdminClient } from '@/lib/supabase';
 import fs from 'fs';
 import path from 'path';
-
-const supabaseUrl = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-const supabaseKey = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
-
-const supabase = createClient(supabaseUrl, supabaseKey, {
-  auth: {
-    persistSession: false,
-    autoRefreshToken: false,
-  }
-});
 
 const BUCKET_NAME = 'image';
 
@@ -36,6 +26,7 @@ export async function POST(request: NextRequest) {
     }
 
     const uploadedUrls: string[] = [];
+    const supabase = getSupabaseAdminClient();
 
     for (const file of files) {
       if (!file || typeof file === 'string') continue;
@@ -49,21 +40,23 @@ export async function POST(request: NextRequest) {
 
       let publicUrl = '';
 
-      // Upload to Supabase Storage 'image' bucket
-      try {
-        const { data, error } = await supabase.storage.from(BUCKET_NAME).upload(storagePath, buffer, {
-          contentType: file.type || 'image/jpeg',
-          upsert: true,
-        });
+      // Upload to Supabase Storage 'image' bucket if available
+      if (supabase) {
+        try {
+          const { data, error } = await supabase.storage.from(BUCKET_NAME).upload(storagePath, buffer, {
+            contentType: file.type || 'image/jpeg',
+            upsert: true,
+          });
 
-        if (error) {
-          console.error('Supabase upload error for', file.name, error);
-        } else if (data) {
-          const { data: pubData } = supabase.storage.from(BUCKET_NAME).getPublicUrl(storagePath);
-          publicUrl = pubData.publicUrl;
+          if (error) {
+            console.error('Supabase upload error for', file.name, error);
+          } else if (data) {
+            const { data: pubData } = supabase.storage.from(BUCKET_NAME).getPublicUrl(storagePath);
+            publicUrl = pubData.publicUrl;
+          }
+        } catch (sbErr) {
+          console.error('Supabase client error:', sbErr);
         }
-      } catch (sbErr) {
-        console.error('Supabase client error:', sbErr);
       }
 
       // Fallback to local storage if Supabase upload failed
