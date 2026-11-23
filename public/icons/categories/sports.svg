@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="12" fill="#F4F4F5"/>
+  <!-- Minimalist Sports, Gym & Fitness Dumbbell -->
+  <line x1="16" y1="24" x2="32" y2="24" stroke="#111111" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Left Weight Plates -->
+  <rect x="13" y="17" width="3" height="14" rx="1.5" fill="#111111"/>
+  <rect x="9" y="19" width="3" height="10" rx="1.5" fill="#111111"/>
+  <!-- Right Weight Plates -->
+  <rect x="32" y="17" width="3" height="14" rx="1.5" fill="#111111"/>
+  <rect x="36" y="19" width="3" height="10" rx="1.5" fill="#111111"/>
+</svg>

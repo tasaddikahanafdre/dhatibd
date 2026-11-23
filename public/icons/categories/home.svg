@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="12" fill="#F4F4F5"/>
+  <!-- Minimalist Architectural Home -->
+  <path d="M31 16V13H34V18.5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12 21L24 12L36 21V34C36 34.5523 35.5523 35 35 35H13C12.4477 35 12 34.5523 12 34V21Z" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M21 35V26H27V35" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

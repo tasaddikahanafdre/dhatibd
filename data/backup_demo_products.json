@@ -1,0 +1,590 @@
+{
+  "backup_timestamp": "2026-11-21T09:38:23.539Z",
+  "removed_count": 12,
+  "preserved_count": 0,
+  "demo_products": [
+    {
+      "id": "prod-aura-headphones",
+      "name": "Aura Pro Wireless ANC Studio Headphones",
+      "price": 18500,
+      "category_id": "cat-tech-001",
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+      "reason": "Known development demo product"
+    },
+    {
+      "id": "prod-chronos-watch",
+      "name": "Chronos Minimalist Titanium Smartwatch",
+      "price": 14200,
+      "category_id": "cat-tech-001",
+      "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+      "reason": "Known development demo product"
+    },
+    {
+      "id": "prod-ethiopian-coffee",
+      "name": "Single-Origin Ethiopian Yirgacheffe Coffee Beans (250g)",
+      "price": 1650,
+      "category_id": "cat-food-002",
+      "image_url": "https://images.unsplash.com/photo-1587734195503-904fca47e0e9?auto=format&fit=crop&w=800&q=80",
+      "reason": "Known development demo product"
+    },
+    {
+      "id": "prod-organic-tee",
+      "name": "Heavyweight 280GSM Organic Cotton Oversized Tee",
+      "price": 1850,
+      "category_id": "cat-clothing-003",
+      "image_url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
+      "reason": "Known development demo product"
+    },
+    {
+      "id": "prod-ceramic-lamp",
+      "name": "Fluted Matte Terracotta Ceramic Table Lamp",
+      "price": 5800,
+      "category_id": "cat-home-005",
+      "image_url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
+      "reason": "Known development demo product"
+    },
+    {
+      "id": "prod-leather-folio",
+      "name": "Full-Grain Tuscan Leather Daily Tech Folio",
+      "price": 5200,
+      "category_id": "cat-other-006",
+      "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+      "reason": "Known development demo product"
+    },
+    {
+      "id": "prod-stormshield-jacket",
+      "name": "StormShield Minimalist Technical Windbreaker",
+      "price": 6900,
+      "category_id": "cat-clothing-003",
+      "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80",
+      "reason": "Known development demo product"
+    },
+    {
+      "id": "prod-beechwood-blocks",
+      "name": "Nordic Sustainable Beechwood Architectural Blocks",
+      "price": 3450,
+      "category_id": "cat-kids-004",
+      "image_url": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80",
+      "reason": "Known development demo product"
+    },
+    {
+      "id": "prod-raw-honey",
+      "name": "Sundarbans Raw Wildflower Organic Honey (500g)",
+      "price": 1250,
+      "category_id": "cat-food-002",
+      "image_url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80",
+      "reason": "Known development demo product"
+    },
+    {
+      "id": "prod-french-press",
+      "name": "Matte Black Thermal Double-Walled French Press",
+      "price": 3250,
+      "category_id": "cat-home-005",
+      "image_url": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80",
+      "reason": "Known development demo product"
+    },
+    {
+      "id": "prod-muslin-blanket",
+      "name": "Organic Muslin Cloud Baby Blanket & Swaddle Set",
+      "price": 2200,
+      "category_id": "cat-kids-004",
+      "image_url": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=800&q=80",
+      "reason": "Known development demo product"
+    },
+    {
+      "id": "prod-laptop-stand",
+      "name": "Anodized Aluminum Ergonomic Laptop Desk Stand",
+      "price": 3600,
+      "category_id": "cat-other-006",
+      "image_url": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+      "reason": "Known development demo product"
+    }
+  ],
+  "full_previous_products": [
+    {
+      "id": "prod-aura-headphones",
+      "sku": "DRG-AUD-001",
+      "name": "Aura Pro Wireless ANC Studio Headphones",
+      "slug": "aura-pro-wireless-anc-studio-headphones",
+      "price": 18500,
+      "images": [
+        {
+          "id": "img-aura-1",
+          "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+          "is_primary": true,
+          "product_id": "prod-aura-headphones",
+          "display_order": 1
+        }
+      ],
+      "variants": [
+        {
+          "id": "var-aura-black",
+          "sku": "DRG-AUD-001-BLK",
+          "product_id": "prod-aura-headphones",
+          "variant_name": "Color",
+          "variant_value": "Matte Black",
+          "stock_quantity": 14,
+          "price_adjustment": 0
+        },
+        {
+          "id": "var-aura-silver",
+          "sku": "DRG-AUD-001-SLV",
+          "product_id": "prod-aura-headphones",
+          "variant_name": "Color",
+          "variant_value": "Pearl Silver",
+          "stock_quantity": 10,
+          "price_adjustment": 0
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "created_at": "2026-11-20T12:59:00.000Z",
+      "updated_at": "2026-11-20T12:59:00.000Z",
+      "category_id": "cat-tech-001",
+      "description": "Engineered for pure acoustic transparency, the Aura Pro delivers hybrid active noise cancellation, low-latency Bluetooth 5.3 multipoint pairing, plush memory foam ear cushions, and up to 35 hours of continuous high-fidelity listening reserve.",
+      "is_featured": true,
+      "model_number": "AP-ANC90",
+      "is_bestseller": true,
+      "warranty_info": "1 Year Official Brand Warranty",
+      "original_price": 22500,
+      "specifications": {
+        "Weight": "250g Lightweight Ergonomic",
+        "Charging": "USB Type-C Fast Charge (10 min for 4 hrs)",
+        "Battery Life": "Up to 35 Hours (ANC On)",
+        "Connectivity": "Bluetooth 5.3 Multipoint + 3.5mm Aux",
+        "Acoustic Driver": "40mm Custom Beryllium Diaphragm"
+      },
+      "stock_quantity": 24,
+      "short_description": "Active noise cancellation, 35-hour battery life, and custom 40mm beryllium drivers.",
+      "low_stock_threshold": 4
+    },
+    {
+      "id": "prod-chronos-watch",
+      "sku": "DRG-WCH-002",
+      "name": "Chronos Minimalist Titanium Smartwatch",
+      "slug": "chronos-minimalist-titanium-smartwatch",
+      "price": 14200,
+      "images": [
+        {
+          "id": "img-chronos-1",
+          "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+          "is_primary": true,
+          "product_id": "prod-chronos-watch",
+          "display_order": 1
+        }
+      ],
+      "variants": [],
+      "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "created_at": "2026-11-20T12:58:00.000Z",
+      "updated_at": "2026-11-20T12:58:00.000Z",
+      "category_id": "cat-tech-001",
+      "description": "Crafted from a solid block of aerospace-grade titanium with scratch-resistant sapphire crystal glass. Features high-precision health sensors, always-on AMOLED display, Bluetooth calling with noise-cancelling microphone, and 5ATM water resistance.",
+      "is_featured": true,
+      "model_number": "CH-TITAN",
+      "is_bestseller": true,
+      "warranty_info": "1 Year Official Warranty",
+      "original_price": 16800,
+      "specifications": {
+        "Display": "1.43\" HD AMOLED 466x466 (1000 nits)",
+        "Sensors": "Heart Rate, SpO2, Sleep & Stress Tracking",
+        "Case Material": "Grade 5 Aerospace Titanium",
+        "Battery Runtime": "12 Days Typical Usage",
+        "Water Resistance": "5ATM (Up to 50 meters)"
+      },
+      "stock_quantity": 17,
+      "short_description": "Aerospace-grade titanium casing with 1.43\" AMOLED display and 12-day battery.",
+      "low_stock_threshold": 3
+    },
+    {
+      "id": "prod-ethiopian-coffee",
+      "sku": "DRG-COF-003",
+      "name": "Single-Origin Ethiopian Yirgacheffe Coffee Beans (250g)",
+      "slug": "single-origin-ethiopian-yirgacheffe-coffee-beans",
+      "price": 1650,
+      "images": [
+        {
+          "id": "img-coffee-1",
+          "image_url": "https://images.unsplash.com/photo-1587734195503-904fca47e0e9?auto=format&fit=crop&w=800&q=80",
+          "is_primary": true,
+          "product_id": "prod-ethiopian-coffee",
+          "display_order": 1
+        }
+      ],
+      "variants": [],
+      "image_url": "https://images.unsplash.com/photo-1587734195503-904fca47e0e9?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "created_at": "2026-11-20T12:57:00.000Z",
+      "updated_at": "2026-11-20T12:57:00.000Z",
+      "category_id": "cat-food-002",
+      "description": "Cultivated at 2,100 meters elevation in the highlands of Yirgacheffe, Ethiopia. Washed process beans micro-roasted to perfection in small batches to preserve nuanced aromas of jasmine florals, bergamot citrus, and honey sweetness.",
+      "is_featured": true,
+      "model_number": "ETH-YIRG-250",
+      "is_bestseller": false,
+      "warranty_info": "Freshness Sealed Guarantee",
+      "original_price": 1950,
+      "specifications": {
+        "Origin": "Yirgacheffe, Gedeo Zone, Ethiopia",
+        "Process": "Washed, Sun-dried on raised beds",
+        "Altitude": "2,000 - 2,200m",
+        "Net Weight": "250g Whole Bean",
+        "Roast Level": "Medium Light Roast"
+      },
+      "stock_quantity": 40,
+      "short_description": "Artisan roasted whole beans with delicate floral jasmine and citrus notes.",
+      "low_stock_threshold": 5
+    },
+    {
+      "id": "prod-organic-tee",
+      "sku": "DRG-TEE-005",
+      "name": "Heavyweight 280GSM Organic Cotton Oversized Tee",
+      "slug": "heavyweight-280gsm-organic-cotton-oversized-tee",
+      "price": 1850,
+      "images": [
+        {
+          "id": "img-tee-1",
+          "image_url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
+          "is_primary": true,
+          "product_id": "prod-organic-tee",
+          "display_order": 1
+        }
+      ],
+      "variants": [
+        {
+          "id": "var-tee-m",
+          "sku": "DRG-TEE-005-M",
+          "product_id": "prod-organic-tee",
+          "variant_name": "Size",
+          "variant_value": "Medium (M)",
+          "stock_quantity": 25,
+          "price_adjustment": 0
+        },
+        {
+          "id": "var-tee-l",
+          "sku": "DRG-TEE-005-L",
+          "product_id": "prod-organic-tee",
+          "variant_name": "Size",
+          "variant_value": "Large (L)",
+          "stock_quantity": 25,
+          "price_adjustment": 0
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "created_at": "2026-11-20T12:56:00.000Z",
+      "updated_at": "2026-11-20T12:56:00.000Z",
+      "category_id": "cat-clothing-003",
+      "description": "Tailored from premium 280 GSM combed organic cotton for substantial drape and supreme softness. Features dropped shoulder seams, structured collar, and a modern relaxed silhouette suitable for everyday wear.",
+      "is_featured": true,
+      "model_number": "HW-TEE-280",
+      "is_bestseller": true,
+      "warranty_info": "7-Day Fitting Exchange",
+      "original_price": 2300,
+      "specifications": {
+        "Fit": "Relaxed Oversized Drop-Shoulder",
+        "Care": "Machine wash cold inside out",
+        "Material": "100% GOTS Certified Organic Cotton",
+        "Fabric Weight": "280 GSM Heavyweight Double Knit"
+      },
+      "stock_quantity": 50,
+      "short_description": "Pre-shrunk combed organic cotton jersey with ribbed collar and drop shoulders.",
+      "low_stock_threshold": 8
+    },
+    {
+      "id": "prod-ceramic-lamp",
+      "sku": "DRG-HOM-009",
+      "name": "Fluted Matte Terracotta Ceramic Table Lamp",
+      "slug": "fluted-matte-terracotta-ceramic-table-lamp",
+      "price": 5800,
+      "images": [
+        {
+          "id": "img-lamp-1",
+          "image_url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
+          "is_primary": true,
+          "product_id": "prod-ceramic-lamp",
+          "display_order": 1
+        }
+      ],
+      "variants": [],
+      "image_url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "created_at": "2026-11-20T12:55:00.000Z",
+      "updated_at": "2026-11-20T12:55:00.000Z",
+      "category_id": "cat-home-005",
+      "description": "Bring architectural warmth into your living room or bedside with this handcrafted fluted terracotta table lamp. Features a tactile matte stoneware finish, solid brass accents, and a custom raw Belgian linen drum shade for diffuse ambient illumination.",
+      "is_featured": true,
+      "model_number": "LMP-TC-FLUTED",
+      "is_bestseller": false,
+      "warranty_info": "1 Year Electrical Warranty",
+      "original_price": 7200,
+      "specifications": {
+        "Cord": "2-meter braided textile cord with inline toggle switch",
+        "Shade": "Natural Unbleached Belgian Linen",
+        "Height": "48cm Total Height (Base diameter 22cm)",
+        "Socket": "Standard E27 (Warm White LED bulb included)",
+        "Base Material": "Hand-cast Matte Glazed Stoneware"
+      },
+      "stock_quantity": 15,
+      "short_description": "Hand-cast matte ceramic base paired with raw textured Belgian linen shade.",
+      "low_stock_threshold": 3
+    },
+    {
+      "id": "prod-leather-folio",
+      "sku": "DRG-ACC-012",
+      "name": "Full-Grain Tuscan Leather Daily Tech Folio",
+      "slug": "full-grain-tuscan-leather-daily-tech-folio",
+      "price": 5200,
+      "images": [
+        {
+          "id": "img-folio-1",
+          "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+          "is_primary": true,
+          "product_id": "prod-leather-folio",
+          "display_order": 1
+        }
+      ],
+      "variants": [],
+      "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "created_at": "2026-11-20T12:54:00.000Z",
+      "updated_at": "2026-11-20T12:54:00.000Z",
+      "category_id": "cat-other-006",
+      "description": "Hand-stitched by master leather artisans from supple vegetable-tanned Tuscan full-grain cowhide that develops a rich, personalized patina over time. Houses a 14-inch laptop, tablet, charger, cables, passport, and pens securely with a heavy-duty brass zipper.",
+      "is_featured": true,
+      "model_number": "FOLIO-TN-14",
+      "is_bestseller": true,
+      "warranty_info": "Lifetime Leather Quality Guarantee",
+      "original_price": 6400,
+      "specifications": {
+        "Lining": "Soft Micro-suede Protective Interior",
+        "Leather": "Certified Full-Grain Tuscan Vegetable-Tanned Leather",
+        "Capacity": "Fits MacBook Pro 14\", iPad Pro 11\", Cables & Notes",
+        "Hardware": "Solid Brass Antique YKK Excella Zipper"
+      },
+      "stock_quantity": 16,
+      "short_description": "Vegetable-tanned full-grain leather organizer fitting 14\" laptops and accessories.",
+      "low_stock_threshold": 3
+    },
+    {
+      "id": "prod-stormshield-jacket",
+      "sku": "DRG-JKT-006",
+      "name": "StormShield Minimalist Technical Windbreaker",
+      "slug": "stormshield-minimalist-technical-windbreaker",
+      "price": 6900,
+      "images": [
+        {
+          "id": "img-jkt-1",
+          "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80",
+          "is_primary": true,
+          "product_id": "prod-stormshield-jacket",
+          "display_order": 1
+        }
+      ],
+      "variants": [],
+      "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "created_at": "2026-11-20T12:53:00.000Z",
+      "updated_at": "2026-11-20T12:53:00.000Z",
+      "category_id": "cat-clothing-003",
+      "description": "Engineered for unpredictable weather, this technical windbreaker features a 3-layer breathable micro-ripstop shell with fully taped seams, YKK Aquaguard weather-sealed zippers, articulated storm hood, and adjustable hem drawstrings.",
+      "is_featured": true,
+      "model_number": "SS-WB-PRO",
+      "is_bestseller": false,
+      "warranty_info": "1 Year Seam & Hardware Warranty",
+      "original_price": 8500,
+      "specifications": {
+        "Fabric": "3-Layer DWR Micro-Ripstop Nylon",
+        "Pockets": "2 Fleece-lined Hand Pockets + 1 Internal Zip",
+        "Zippers": "YKK Aquaguard Sealed Zippers",
+        "Waterproof Rating": "15,000mm Hydrostatic Head"
+      },
+      "stock_quantity": 20,
+      "short_description": "3-layer waterproof ripstop membrane with taped seams and YKK Aquaguard zips.",
+      "low_stock_threshold": 3
+    },
+    {
+      "id": "prod-beechwood-blocks",
+      "sku": "DRG-KID-007",
+      "name": "Nordic Sustainable Beechwood Architectural Blocks",
+      "slug": "nordic-sustainable-beechwood-architectural-blocks",
+      "price": 3450,
+      "images": [
+        {
+          "id": "img-blocks-1",
+          "image_url": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80",
+          "is_primary": true,
+          "product_id": "prod-beechwood-blocks",
+          "display_order": 1
+        }
+      ],
+      "variants": [],
+      "image_url": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "created_at": "2026-11-20T12:52:00.000Z",
+      "updated_at": "2026-11-20T12:52:00.000Z",
+      "category_id": "cat-kids-004",
+      "description": "Inspire creative thinking and fine motor skills with this heirloom-quality 50-piece architectural building block set. Precision-crafted from sustainably harvested European beechwood, tumbled smooth and colored with non-toxic botanical pigments.",
+      "is_featured": false,
+      "model_number": "KID-BLOCK-50",
+      "is_bestseller": true,
+      "warranty_info": "Child Safe Certified",
+      "original_price": 4200,
+      "specifications": {
+        "Pieces": "50 Precision Geometric Blocks",
+        "Storage": "Includes 100% Organic Cotton Canvas Bag",
+        "Wood Type": "FSC Certified European Beechwood",
+        "Safety Standard": "EN71 & ASTM F963 Certified Non-Toxic"
+      },
+      "stock_quantity": 25,
+      "short_description": "50 hand-finished solid beechwood shapes with food-grade water-based dyes.",
+      "low_stock_threshold": 4
+    },
+    {
+      "id": "prod-raw-honey",
+      "sku": "DRG-HNY-004",
+      "name": "Sundarbans Raw Wildflower Organic Honey (500g)",
+      "slug": "sundarbans-raw-wildflower-organic-honey",
+      "price": 1250,
+      "images": [
+        {
+          "id": "img-honey-1",
+          "image_url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80",
+          "is_primary": true,
+          "product_id": "prod-raw-honey",
+          "display_order": 1
+        }
+      ],
+      "variants": [],
+      "image_url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "created_at": "2026-11-20T12:51:00.000Z",
+      "updated_at": "2026-11-20T12:51:00.000Z",
+      "category_id": "cat-food-002",
+      "description": "Ethically harvested from the pristine mangrove forests of the Sundarbans. Completely cold-extracted, unpasteurized, and micro-filtered without added heat to retain all active enzymes, pollen, and natural antioxidants.",
+      "is_featured": false,
+      "model_number": "SBN-RAW-500",
+      "is_bestseller": true,
+      "warranty_info": "100% Lab Tested Purity Guarantee",
+      "original_price": 1500,
+      "specifications": {
+        "Type": "100% Raw Wildflower Mangrove Honey",
+        "Purity": "No artificial sugar or additives",
+        "Weight": "500g Glass Jar",
+        "Extraction": "Cold Extracted, Unfiltered"
+      },
+      "stock_quantity": 35,
+      "short_description": "100% pure unfiltered raw wildflower honey harvested from forest apiaries.",
+      "low_stock_threshold": 5
+    },
+    {
+      "id": "prod-french-press",
+      "sku": "DRG-HOM-010",
+      "name": "Matte Black Thermal Double-Walled French Press",
+      "slug": "matte-black-thermal-double-walled-french-press",
+      "price": 3250,
+      "images": [
+        {
+          "id": "img-press-1",
+          "image_url": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80",
+          "is_primary": true,
+          "product_id": "prod-french-press",
+          "display_order": 1
+        }
+      ],
+      "variants": [],
+      "image_url": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "created_at": "2026-11-20T12:50:00.000Z",
+      "updated_at": "2026-11-20T12:50:00.000Z",
+      "category_id": "cat-home-005",
+      "description": "Brew clean, full-bodied coffee without grounds or rapid heat loss. Made from indestructible food-grade 18/8 stainless steel with double-walled vacuum insulation that maintains optimal brewing temperature for up to two hours.",
+      "is_featured": false,
+      "model_number": "FP-SS-800",
+      "is_bestseller": true,
+      "warranty_info": "Lifetime Manufacturer Craftsmanship Warranty",
+      "original_price": 3800,
+      "specifications": {
+        "Finish": "Fingerprint-Resistant Matte Powdercoat",
+        "Capacity": "800ml (3-4 Coffee Mugs)",
+        "Filtration": "3-Stage Stainless Micron Screen Plunger",
+        "Construction": "Double-Wall Food Grade 304 Stainless Steel"
+      },
+      "stock_quantity": 28,
+      "short_description": "304 stainless steel double-wall vacuum insulation with ultra-fine mesh filter.",
+      "low_stock_threshold": 4
+    },
+    {
+      "id": "prod-muslin-blanket",
+      "sku": "DRG-KID-008",
+      "name": "Organic Muslin Cloud Baby Blanket & Swaddle Set",
+      "slug": "organic-muslin-cloud-baby-blanket-swaddle-set",
+      "price": 2200,
+      "images": [
+        {
+          "id": "img-muslin-1",
+          "image_url": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=800&q=80",
+          "is_primary": true,
+          "product_id": "prod-muslin-blanket",
+          "display_order": 1
+        }
+      ],
+      "variants": [],
+      "image_url": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "created_at": "2026-11-20T12:49:00.000Z",
+      "updated_at": "2026-11-20T12:49:00.000Z",
+      "category_id": "cat-kids-004",
+      "description": "Ultra-soft and breathable, this 4-layer pre-washed organic cotton muslin swaddle blanket provides gentle warmth while preventing overheating. Gets softer with every wash, perfect for tummy time, strollers, and nursing.",
+      "is_featured": false,
+      "model_number": "MSL-SWD-2PK",
+      "is_bestseller": false,
+      "warranty_info": "100% Organic Certified",
+      "original_price": 2650,
+      "specifications": {
+        "Fabric": "4-Layer 100% Combed Organic Cotton Muslin",
+        "Dimensions": "120cm x 120cm Generous Swaddle Size",
+        "Hypoallergenic": "Free from harmful chemical treatments"
+      },
+      "stock_quantity": 30,
+      "short_description": "Breathable 4-layer GOTS certified organic muslin for delicate baby skin.",
+      "low_stock_threshold": 5
+    },
+    {
+      "id": "prod-laptop-stand",
+      "sku": "DRG-ACC-011",
+      "name": "Anodized Aluminum Ergonomic Laptop Desk Stand",
+      "slug": "anodized-aluminum-ergonomic-laptop-desk-stand",
+      "price": 3600,
+      "images": [
+        {
+          "id": "img-stand-1",
+          "image_url": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+          "is_primary": true,
+          "product_id": "prod-laptop-stand",
+          "display_order": 1
+        }
+      ],
+      "variants": [],
+      "image_url": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "created_at": "2026-11-20T12:48:00.000Z",
+      "updated_at": "2026-11-20T12:48:00.000Z",
+      "category_id": "cat-other-006",
+      "description": "Machined from a single slab of aerospace aluminum, this minimalist laptop stand elevates screens by 15 cm to eye level, relieving cervical neck strain. Open ventilation cutouts accelerate passive cooling to keep MacBooks and laptops cool.",
+      "is_featured": false,
+      "model_number": "STD-ALU-15",
+      "is_bestseller": false,
+      "warranty_info": "2 Years Durability Warranty",
+      "original_price": 4400,
+      "specifications": {
+        "Material": "Solid Sandblasted Anodized Aluminum Alloy",
+        "Protection": "Anti-slip Non-scratch Silicone Grip Pads",
+        "Compatibility": "All 11\" to 16\" Laptops & MacBooks",
+        "Cable Management": "Dedicated rear routing aperture"
+      },
+      "stock_quantity": 32,
+      "short_description": "CNC machined sandblasted aluminum stand engineered for optimal posture and airflow.",
+      "low_stock_threshold": 5
+    }
+  ]
+}

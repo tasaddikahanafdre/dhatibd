@@ -1,0 +1,162 @@
+[
+  {
+    "id": "prod-moh-ms-8801",
+    "sku": "MOH-CHG-65W",
+    "name": "Aukey 65W GaN Dual Port Fast Wall Charger",
+    "slug": "aukey-65w-gan-dual-port-fast-wall-charger",
+    "price": 1850,
+    "images": [
+      "https://bojrnmuhqiidgbqjaacq.supabase.co/storage/v1/object/public/image/products/mohasagor/MS-8801_0_1795255736166.jpg",
+      "https://images.unsplash.com/photo-1622445268462-337f1688c49a?auto=format&fit=crop&w=800&q=80"
+    ],
+    "image_url": "https://bojrnmuhqiidgbqjaacq.supabase.co/storage/v1/object/public/image/products/mohasagor/MS-8801_0_1795255736166.jpg",
+    "is_active": true,
+    "cost_price": 1850,
+    "created_at": "2026-11-21T10:08:57.545Z",
+    "updated_at": "2026-11-21T10:08:57.550Z",
+    "category_id": "cat-tech-001",
+    "description": "Next-generation Gallium Nitride (GaN) fast charger offering up to 65W ultra-high speed charging for laptops, tablets, and smartphones. Dual-port intelligent power allocation ensures safe, cool, and efficient operation.",
+    "is_featured": true,
+    "rating_count": 8,
+    "is_bestseller": true,
+    "original_price": 2450,
+    "rating_average": 4.9,
+    "specifications": {
+      "supplier": "Mohasagor",
+      "warranty": "1 Year Brand Warranty",
+      "supplier_id": "MS-8801",
+      "original_url": "https://dregital.mohasagor.com/product/aukey-65w-gan-charger"
+    },
+    "stock_quantity": 25,
+    "short_description": "Ultra-compact 65W GaN III fast charger with dual Type-C and USB-A power delivery.",
+    "low_stock_threshold": 5
+  },
+  {
+    "id": "prod-moh-ms-8802",
+    "sku": "MOH-WTH-HAYLOU",
+    "name": "Haylou Solar Pro Smartwatch AMOLED Bluetooth Calling",
+    "slug": "haylou-solar-pro-smartwatch-amoled-bluetooth-calling",
+    "price": 3200,
+    "images": [
+      "https://bojrnmuhqiidgbqjaacq.supabase.co/storage/v1/object/public/image/products/mohasagor/MS-8802_0_1795255737783.jpg",
+      "https://bojrnmuhqiidgbqjaacq.supabase.co/storage/v1/object/public/image/products/mohasagor/MS-8802_1_1795255738235.jpg"
+    ],
+    "image_url": "https://bojrnmuhqiidgbqjaacq.supabase.co/storage/v1/object/public/image/products/mohasagor/MS-8802_0_1795255737783.jpg",
+    "is_active": true,
+    "cost_price": 3200,
+    "created_at": "2026-11-21T10:08:58.665Z",
+    "updated_at": "2026-11-21T10:08:58.665Z",
+    "category_id": "cat-tech-001",
+    "description": "Premium metal bezel smartwatch featuring an ultra-crisp Always-On AMOLED screen, dedicated speaker and microphone for crystal clear Bluetooth voice calls, comprehensive heart rate and SpO2 monitoring, and 7-day battery life.",
+    "is_featured": true,
+    "rating_count": 8,
+    "is_bestseller": true,
+    "original_price": 4200,
+    "rating_average": 4.9,
+    "specifications": {
+      "supplier": "Mohasagor",
+      "warranty": "1 Year Brand Warranty",
+      "supplier_id": "MS-8802",
+      "original_url": "https://dregital.mohasagor.com/product/haylou-solar-pro-smartwatch"
+    },
+    "stock_quantity": 25,
+    "short_description": "1.43-inch HD AMOLED display with Bluetooth calling, IP68 waterproof and 100+ sports modes.",
+    "low_stock_threshold": 5
+  },
+  {
+    "id": "prod-moh-ms-8803",
+    "sku": "MOH-AUD-BOWIE",
+    "name": "Baseus Bowie M2+ ANC True Wireless Earbuds",
+    "slug": "baseus-bowie-m2-anc-true-wireless-earbuds",
+    "price": 2650,
+    "images": [
+      "https://bojrnmuhqiidgbqjaacq.supabase.co/storage/v1/object/public/image/products/mohasagor/MS-8803_0_1795255738763.jpg",
+      "https://bojrnmuhqiidgbqjaacq.supabase.co/storage/v1/object/public/image/products/mohasagor/MS-8803_1_1795255739123.jpg"
+    ],
+    "image_url": "https://bojrnmuhqiidgbqjaacq.supabase.co/storage/v1/object/public/image/products/mohasagor/MS-8803_0_1795255738763.jpg",
+    "is_active": true,
+    "cost_price": 2650,
+    "created_at": "2026-11-21T10:08:59.417Z",
+    "updated_at": "2026-11-21T10:08:59.417Z",
+    "category_id": "cat-tech-001",
+    "description": "Equipped with hybrid active noise cancellation technology, the Baseus Bowie M2+ eliminates ambient distractions up to -42dB. 4-mic ENC system ensures studio-grade voice clarity during calls. Bluetooth 5.2 with 30-hour total playback.",
+    "is_featured": true,
+    "rating_count": 8,
+    "is_bestseller": true,
+    "original_price": 3500,
+    "rating_average": 4.9,
+    "specifications": {
+      "supplier": "Mohasagor",
+      "warranty": "1 Year Brand Warranty",
+      "supplier_id": "MS-8803",
+      "original_url": "https://dregital.mohasagor.com/product/baseus-bowie-m2-anc-earbuds"
+    },
+    "stock_quantity": 25,
+    "short_description": "-42dB Hybrid Active Noise Cancellation wireless earbuds with dual-channel low latency.",
+    "low_stock_threshold": 5
+  },
+  {
+    "id": "prod-moh-ms-8804",
+    "sku": "MOH-BAG-ROLLTOP",
+    "name": "Minimalist Weatherproof Roll-top Laptop Backpack 20L",
+    "slug": "minimalist-weatherproof-roll-top-laptop-backpack-20l",
+    "price": 1950,
+    "images": [
+      "https://bojrnmuhqiidgbqjaacq.supabase.co/storage/v1/object/public/image/products/mohasagor/MS-8804_0_1795255739493.jpg",
+      "https://bojrnmuhqiidgbqjaacq.supabase.co/storage/v1/object/public/image/products/mohasagor/MS-8804_1_1795255739977.jpg"
+    ],
+    "image_url": "https://bojrnmuhqiidgbqjaacq.supabase.co/storage/v1/object/public/image/products/mohasagor/MS-8804_0_1795255739493.jpg",
+    "is_active": true,
+    "cost_price": 1950,
+    "created_at": "2026-11-21T10:09:00.365Z",
+    "updated_at": "2026-11-21T10:09:00.365Z",
+    "category_id": "cat-clothing-003",
+    "description": "Sleek matte black roll-top design engineered for modern city commuters. Features high-density water-repellent exterior, ergonomic breathable back padding, hidden anti-theft rear pocket, and dedicated shockproof laptop compartment.",
+    "is_featured": true,
+    "rating_count": 8,
+    "is_bestseller": true,
+    "original_price": 2800,
+    "rating_average": 4.9,
+    "specifications": {
+      "supplier": "Mohasagor",
+      "warranty": "1 Year Brand Warranty",
+      "supplier_id": "MS-8804",
+      "original_url": "https://dregital.mohasagor.com/product/minimalist-rolltop-backpack"
+    },
+    "stock_quantity": 25,
+    "short_description": "Water-resistant Oxford fabric urban commuter backpack with padded 15.6\" laptop compartment.",
+    "low_stock_threshold": 5
+  },
+  {
+    "id": "prod-moh-ms-8805",
+    "sku": "MOH-KEY-K3V2",
+    "name": "Keychron K3 Ultra-Slim Wireless Mechanical Keyboard",
+    "slug": "keychron-k3-ultra-slim-wireless-mechanical-keyboard",
+    "price": 6800,
+    "images": [
+      "https://bojrnmuhqiidgbqjaacq.supabase.co/storage/v1/object/public/image/products/mohasagor/MS-8805_0_1795255740443.jpg",
+      "https://bojrnmuhqiidgbqjaacq.supabase.co/storage/v1/object/public/image/products/mohasagor/MS-8805_1_1795255740979.jpg"
+    ],
+    "image_url": "https://bojrnmuhqiidgbqjaacq.supabase.co/storage/v1/object/public/image/products/mohasagor/MS-8805_0_1795255740443.jpg",
+    "is_active": true,
+    "cost_price": 6800,
+    "created_at": "2026-11-21T10:09:01.360Z",
+    "updated_at": "2026-11-21T10:09:01.360Z",
+    "category_id": "cat-tech-001",
+    "description": "World-renowned ultra-slim wireless mechanical keyboard featuring low-profile optical switches. Connects with up to 3 devices via Bluetooth 5.1 or Type-C wired mode. Compatible with both macOS and Windows layouts.",
+    "is_featured": true,
+    "rating_count": 8,
+    "is_bestseller": true,
+    "original_price": 8500,
+    "rating_average": 4.9,
+    "specifications": {
+      "supplier": "Mohasagor",
+      "warranty": "1 Year Brand Warranty",
+      "supplier_id": "MS-8805",
+      "original_url": "https://dregital.mohasagor.com/product/keychron-k3-wireless-keyboard"
+    },
+    "stock_quantity": 25,
+    "short_description": "Low profile optical hot-swappable switches with white LED backlight for Mac and Windows.",
+    "low_stock_threshold": 5
+  }
+]

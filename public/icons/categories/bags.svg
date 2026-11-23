@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <!-- Solid Orange Background matching user reference -->
+  <rect width="100" height="100" rx="22" fill="#eb5a00"/>
+  
+  <!-- Tote Bag Body -->
+  <path d="M28 42 L32 77 C32 79 34 80 37 80 H63 C66 80 68 79 68 77 L72 42 Z" fill="#ffffff"/>
+  
+  <!-- Carry Handles -->
+  <path d="M39 42 V28 C39 23 61 23 61 28 V42" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Front Accent Pocket with Buckle -->
+  <path d="M40 52 H60 V67 C60 69 58 70 55 70 H45 C42 70 40 69 40 67 Z" fill="none" stroke="#eb5a00" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="50" cy="57" r="2" fill="#eb5a00"/>
+
+</svg>

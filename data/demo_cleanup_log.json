@@ -1,0 +1,72 @@
+{
+  "cleanup_date": "2026-11-21T09:38:25.678Z",
+  "status": "COMPLETED_SUCCESSFULLY",
+  "summary": {
+    "demo_products_removed": 12,
+    "real_products_preserved": 0,
+    "categories_preserved": 6,
+    "customer_orders_preserved": 2
+  },
+  "removed_items": [
+    {
+      "id": "prod-aura-headphones",
+      "name": "Aura Pro Wireless ANC Studio Headphones",
+      "price": 18500
+    },
+    {
+      "id": "prod-chronos-watch",
+      "name": "Chronos Minimalist Titanium Smartwatch",
+      "price": 14200
+    },
+    {
+      "id": "prod-ethiopian-coffee",
+      "name": "Single-Origin Ethiopian Yirgacheffe Coffee Beans (250g)",
+      "price": 1650
+    },
+    {
+      "id": "prod-organic-tee",
+      "name": "Heavyweight 280GSM Organic Cotton Oversized Tee",
+      "price": 1850
+    },
+    {
+      "id": "prod-ceramic-lamp",
+      "name": "Fluted Matte Terracotta Ceramic Table Lamp",
+      "price": 5800
+    },
+    {
+      "id": "prod-leather-folio",
+      "name": "Full-Grain Tuscan Leather Daily Tech Folio",
+      "price": 5200
+    },
+    {
+      "id": "prod-stormshield-jacket",
+      "name": "StormShield Minimalist Technical Windbreaker",
+      "price": 6900
+    },
+    {
+      "id": "prod-beechwood-blocks",
+      "name": "Nordic Sustainable Beechwood Architectural Blocks",
+      "price": 3450
+    },
+    {
+      "id": "prod-raw-honey",
+      "name": "Sundarbans Raw Wildflower Organic Honey (500g)",
+      "price": 1250
+    },
+    {
+      "id": "prod-french-press",
+      "name": "Matte Black Thermal Double-Walled French Press",
+      "price": 3250
+    },
+    {
+      "id": "prod-muslin-blanket",
+      "name": "Organic Muslin Cloud Baby Blanket & Swaddle Set",
+      "price": 2200
+    },
+    {
+      "id": "prod-laptop-stand",
+      "name": "Anodized Aluminum Ergonomic Laptop Desk Stand",
+      "price": 3600
+    }
+  ]
+}

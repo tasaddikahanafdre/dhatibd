@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="12" fill="#F4F4F5"/>
+  <!-- Minimalist Gaming Controller -->
+  <path d="M15 16H33C37 16 39 19 38 25L36 32C35 34 33 34 31 32L28 28H20L17 32C15 34 13 34 12 32L10 25C9 19 11 16 15 16Z" stroke="#111111" stroke-width="2" stroke-linejoin="round"/>
+  <!-- D-Pad -->
+  <line x1="17" y1="21" x2="17" y2="25" stroke="#111111" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="15" y1="23" x2="19" y2="23" stroke="#111111" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Action Buttons -->
+  <circle cx="31" cy="21.5" r="1" fill="#111111"/>
+  <circle cx="33.5" cy="24" r="1" fill="#111111"/>
+</svg>

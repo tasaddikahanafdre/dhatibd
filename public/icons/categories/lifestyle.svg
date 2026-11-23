@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="12" fill="#F4F4F5"/>
+  <!-- Minimalist Home & Lifestyle / Modern Living Lamp -->
+  <!-- Lamp Shade -->
+  <path d="M17 23L20 13H28L31 23H17Z" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Lamp Stand -->
+  <line x1="24" y1="23" x2="24" y2="34" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+  <!-- Lamp Base -->
+  <line x1="18" y1="34" x2="30" y2="34" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+  <!-- Subtle Ambient Glow Accent -->
+  <line x1="14" y1="17" x2="11" y2="17" stroke="#111111" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="34" y1="17" x2="37" y2="17" stroke="#111111" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="24" y1="10" x2="24" y2="7" stroke="#111111" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

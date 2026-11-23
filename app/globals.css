@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+ * Direct Bengali Unicode subset for Anek Bangla.
+ * This guarantees that whenever any Bengali glyph (U+0980-09FE, punctuation, Takas, conjuncts)
+ * is encountered anywhere on the site, the browser automatically renders it with Anek Bangla,
+ * while Latin/English characters strictly fall through to the existing English font stack.
+ */
+@font-face {
+  font-family: 'Anek Bangla Bengali';
+  font-style: normal;
+  font-weight: 100 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/anekbangla/v16/_gPr1R38qTExHg-17BhM6n66QhabMYB0fBKONtHLWwrlyis.woff2') format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1, U+11DF0-11DF1;
+}
+
+:root {
+  --foreground-rgb: 10, 10, 10;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+  --font-site-sans: 'Anek Bangla Bengali', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, 'Anek Bangla';
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #ffffff;
+  font-family: var(--font-site-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure all interactive controls, inputs, and buttons inherit the bilingual font stack */
+input, textarea, select, button {
+  font-family: inherit;
+}
+
+/* Optional explicit utility class if needed */
+.font-bangla, :lang(bn), [lang="bn"] {
+  font-family: 'Anek Bangla', 'Anek Bangla Bengali', sans-serif;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #e0e0e0;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* Hide scrollbar utility across all browsers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none !important;  /* IE and Edge */
+  scrollbar-width: none !important;  /* Firefox */
+}

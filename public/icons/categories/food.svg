@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="12" fill="#F4F4F5"/>
+  <!-- Minimalist Dining Utensils -->
+  <path d="M15 13V21C15 22.6569 16.3431 24 18 24V35" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 13V21" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+  <path d="M21 13V21C21 22.6569 19.6569 24 18 24" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30 13C30 13 33 16.5 33 22.5V35H30V13Z" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

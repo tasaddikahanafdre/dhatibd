@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <!-- Solid Orange Background matching user reference -->
+  <rect width="100" height="100" rx="22" fill="#eb5a00"/>
+  
+  <!-- Sneaker Silhouette -->
+  <path d="M20 63 C20 54 26 50 35 50 C41 50 48 42 54 35 C57 32 62 33 66 38 L72 48 C77 50 80 54 80 61 L80 67 C80 69 78 70 76 70 H24 C21.5 70 20 68 20 65 Z" fill="#ffffff"/>
+  
+  <!-- Thick Sole / Midsole Cushion -->
+  <path d="M20 64 H80 V69 C80 71 78 72 75 72 H25 C22 72 20 71 20 69 Z" fill="#eb5a00"/>
+  <line x1="22" y1="64" x2="78" y2="64" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- Laces Detail -->
+  <line x1="49" y1="44" x2="56" y2="41" stroke="#eb5a00" stroke-width="2" stroke-linecap="round"/>
+  <line x1="47" y1="48" x2="54" y2="45" stroke="#eb5a00" stroke-width="2" stroke-linecap="round"/>
+  <line x1="45" y1="52" x2="52" y2="49" stroke="#eb5a00" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Padded Collar Opening -->
+  <path d="M62 37 C64 33 70 34 72 39" stroke="#eb5a00" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+</svg>

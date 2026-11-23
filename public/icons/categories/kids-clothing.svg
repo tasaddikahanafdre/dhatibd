@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <!-- Solid Orange Background matching user reference -->
+  <rect width="100" height="100" rx="22" fill="#eb5a00"/>
+  
+  <!-- Overall Bib & Shorts Body -->
+  <path d="M38 34 H62 V52 H68 L64 77 C64 78.5 62 79 59 79 L53 79 L50 63 L47 79 L41 79 C38 79 36 78.5 36 77 L32 52 H38 Z" fill="#ffffff"/>
+  
+  <!-- Shoulder Straps with Buttons -->
+  <path d="M40 24 V34 H44 V24 Z" fill="#ffffff"/>
+  <path d="M56 24 V34 H60 V24 Z" fill="#ffffff"/>
+  <circle cx="42" cy="32" r="1.8" fill="#eb5a00"/>
+  <circle cx="58" cy="32" r="1.8" fill="#eb5a00"/>
+
+  <!-- Cute Kangaroo Front Pocket -->
+  <path d="M43 40 H57 V49 C57 51 55 52 50 52 C45 52 43 51 43 49 Z" fill="none" stroke="#eb5a00" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Crotch & Leg Inseam Divider -->
+  <line x1="50" y1="55" x2="50" y2="63" stroke="#eb5a00" stroke-width="2.5" stroke-linecap="round"/>
+
+</svg>

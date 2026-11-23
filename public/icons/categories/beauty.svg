@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="12" fill="#F4F4F5"/>
+  <!-- Minimalist Beauty, Cosmetics & Skincare -->
+  <!-- Perfume Bottle Body -->
+  <rect x="16" y="20" width="16" height="15" rx="3" stroke="#111111" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Neck -->
+  <rect x="21" y="17" width="6" height="3" stroke="#111111" stroke-width="1.8"/>
+  <!-- Sprayer Cap -->
+  <path d="M20 14H28V17H20V14Z" stroke="#111111" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Elegant Sparkles -->
+  <path d="M34 13L35 15L37 16L35 17L34 19L33 17L31 16L33 15L34 13Z" fill="#111111"/>
+  <circle cx="13" cy="16" r="1.2" fill="#111111"/>
+</svg>

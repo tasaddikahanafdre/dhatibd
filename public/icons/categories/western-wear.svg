@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <!-- Solid Orange Background matching user reference -->
+  <rect width="100" height="100" rx="22" fill="#eb5a00"/>
+  
+  <!-- Jacket Torso -->
+  <path d="M32 30 L30 73 C30 75 32 76 35 76 C41 75.5 59 75.5 65 76 C68 76 70 75 70 73 L68 30 Z" fill="#ffffff"/>
+  
+  <!-- Left Sleeve & Cuff -->
+  <path d="M32 30 L19 66 C18.5 68 20 69.5 22 70 L27.5 68 L33 46 Z" fill="#ffffff"/>
+  <line x1="19" y1="64" x2="26" y2="66" stroke="#eb5a00" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Right Sleeve & Cuff -->
+  <path d="M68 30 L81 66 C81.5 68 80 69.5 78 70 L72.5 68 L67 46 Z" fill="#ffffff"/>
+  <line x1="81" y1="64" x2="74" y2="66" stroke="#eb5a00" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Center Zipper / Placket -->
+  <line x1="50" y1="30" x2="50" y2="75" stroke="#eb5a00" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Dual Chest Flap Pockets -->
+  <rect x="36" y="41" width="9" height="7" rx="1.5" fill="none" stroke="#eb5a00" stroke-width="2"/>
+  <rect x="55" y="41" width="9" height="7" rx="1.5" fill="none" stroke="#eb5a00" stroke-width="2"/>
+
+  <!-- Turn-down Collar -->
+  <path d="M38 22 L33 29 L46 31 L42 22 Z" fill="#ffffff" stroke="#eb5a00" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M62 22 L67 29 L54 31 L58 22 Z" fill="#ffffff" stroke="#eb5a00" stroke-width="2" stroke-linejoin="round"/>
+
+</svg>
